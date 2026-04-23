@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./fonts/MyFont-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./fonts/MyFont-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+body {
+  font-family: "MyFont", sans-serif;
+}
+
+.main-section {
+  width: 1440px;
+  height: 390px;
+  margin: 0 auto;
+  background: #f7f2ea;
+}
+
+.content {
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  height: 290px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.card {
+  width: 292px;
+  height: 178px;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 12px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.icon {
+  color: orange;
+  font-size: 20px;
+}
